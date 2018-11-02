@@ -51,4 +51,4 @@ model.fit(x_train_noisy, x_train,
           callbacks=[Images(), WandbCallback(save_model=False)])
 
 
-model.save("auto-denoise.h5")
+model.save("auto-denoise_cnn.h5")

@@ -74,4 +74,4 @@ history_tl = model.fit_generator(
     callbacks=[WandbCallback(data_type="image", generator=validation_generator, labels=['cat', 'dog'], save_model=False)],
     class_weight='auto')
 
-model.save("transfered.h5")
+model.save("transfered_dense.h5")

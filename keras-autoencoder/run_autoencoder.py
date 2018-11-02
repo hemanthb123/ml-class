@@ -9,7 +9,8 @@ import cv2
 x_train = x_train.astype('float32') / 255.
 x_test = x_test.astype('float32') / 255.
 
-model = load_model('auto-denoise.h5')
+#model = load_model('auto-denoise.h5')
+model = load_model('auto-cnn.h5')
 
 def add_noise(x_train):
     noise_factor = 0.5

@@ -55,4 +55,4 @@ model.fit_generator(
     steps_per_epoch=nb_train_samples * 2 / config.batch_size,
     validation_steps=nb_train_samples / config.batch_size,
 )
-model.save('transfered.h5')
+model.save('transfered_resnet.h5')
